@@ -131,7 +131,7 @@ const Dashboard: React.FC = () => {
               key={product.id}
               style={{ textDecoration: 'none' }}
             >
-              <ProductCard>
+              <ProductCard editable>
                 <img src={product.image} alt={product.name} />
                 <p>{product.name}</p>
                 <p className="price">{`R$ ${product.price.toString().replace('.', ',')}`}</p>

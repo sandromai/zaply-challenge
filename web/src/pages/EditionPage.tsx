@@ -169,7 +169,7 @@ const EditionPage: React.FC = () => {
               <p className="card-container-title">Antes</p>
 
               {originalProduct && (
-                <ProductCard>
+                <ProductCard editable={false}>
                   <img src={originalProduct.image} alt={originalProduct.name} />
                   <p>{originalProduct.name}</p>
                   <p className="price">{`R$ ${originalProduct.price.toString().replace('.', ',')}`}</p>
@@ -180,7 +180,7 @@ const EditionPage: React.FC = () => {
             <div>
               <p className="card-container-title">Depois</p>
 
-              <ProductCard>
+              <ProductCard editable={false}>
                 <img src={imageUrl} alt={name} />
                 <p>{name}</p>
                 <p className="price">{`R$ ${price.toString().replace('.', ',')}`}</p>
