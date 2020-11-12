@@ -1,4 +1,4 @@
-// This objects represents the return from the back-end.
+// The products const represents the database.
 
 export const products = [
   {

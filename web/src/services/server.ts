@@ -1,5 +1,7 @@
-// This file represents some of the back-end functionalities.
-
+/**
+ * This file represents some of the back-end functionalities,
+ * but none of these changes are applied permanently to the database.
+ */
 import { products } from './products';
 
 interface Product {
