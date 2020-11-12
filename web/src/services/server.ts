@@ -1,3 +1,5 @@
+// This file represents some of the back-end functionalities.
+
 import { products } from './products';
 
 interface Product {
