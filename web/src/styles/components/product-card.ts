@@ -38,30 +38,32 @@ export const Container = styled.div`
     color: #10E644;
   }
 
-  p.edit {
-    width: 0px;
-    height: 0px;
-
-    visibility: hidden;
-
-    color: #E6101D;
-
-    font-size: 16px;
-    font-weight: 600;
-
-    text-decoration: underline;
-  }
-
-  &:hover {
-    cursor: pointer;
-
-    box-shadow: 5px 5px 10px rgba(33, 33, 33, 0.1), -5px -5px 10px rgba(33, 33, 33, 0.1);
-
+  &.editable {
     p.edit {
-      visibility: visible;
+      width: 0px;
+      height: 0px;
 
-      width: 200px;
-      height: 26px;
+      visibility: hidden;
+
+      color: #E6101D;
+
+      font-size: 16px;
+      font-weight: 600;
+
+      text-decoration: underline;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      box-shadow: 5px 5px 10px rgba(33, 33, 33, 0.1), -5px -5px 10px rgba(33, 33, 33, 0.1);
+
+      p.edit {
+        visibility: visible;
+
+        width: 200px;
+        height: 26px;
+      }
     }
   }
 `;
